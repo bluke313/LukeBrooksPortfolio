@@ -1,53 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Enter your name below. The text will appear in the browser tab! -->
-  <title>Luke Brooks</title>
-  <!-- The link below is to a CSS (Cascading Style Sheet) file. You'll learn more about CSS next week! -->
-  <link rel="stylesheet" href="./css/simple-grid.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <!-- Added viewport settings to make it work on a mobile phone. Don't worry about it; just copy and paste -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <!-- Changed title to my name. The title will show up in the browser tab! -->
+   <title>Luke B</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  </head>
 
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-3">
-        <!-- This content will take up 3/12 (or 1/4) of the container -->
-        <!-- Fill in the info between the strong and li tags -->
-        <p>My name is <b class="cool-color">Luke Brooks</b></p>
-        <p>I like three things:</p>
-        <ul>
-          <li>biking</li>
-          <li>burgers</li>
-          <li>heavy metal</li>
-        </ul>
-        <!-- Try adding a paragraph in the line below. Paragraph tags look like <p>paragraph content</p>. The paragraph should say, "I dislike three things:" -->
-        <p>I dislike three things:</p>
-        <!-- Now try adding a list of DISLIKES. The list should resemble the one on lines 21-26 above except instead of ul (unordered list), use ol tags (ordered list). Put li (list item) tags inside of the ol tags -->
-        <ul>
-          <li>mornings</li>
-          <li>chocolate</li>
-          <li>people that chew with their mouth open</li>
-        </ul>
+  <body>
 
-      </div>
-      <div class="col-9">
-        <!-- This content will take up 9/12 (or 2/3) of the container -->
-        <!-- On the blank line below, add a short paragraph about yourself, but this time use this FANTASTIC trick: Instead of typing out the paragraph tags, simply hit p, then tab (no spaces). Atom should generate paragraph tags for you! You can use this shortcut with any HTML tag. Try it!-->
+    <div class="container">
 
-        <h1>About me</h1>
+      <header>
+        <div class="wrapper">
+          <h1>Luke Brooks</h1>
+          <p class="bio">
+            Welcome to Chef Brooks's world renowned cookbook website. <i>Edited by Gordon Ramsay<i>
+          </p>
+          <div class="buttonBox">
+            <a class="myButton"href="#projects">Go</a>
+          </div>
+        </div>
+      </header>
 
-        <p>I am a Junior at Virginia Tech studying Computer Science. I play the drums for the band Leaning Tower that I created with some people I met here at school. I have never left the country but I have been to multiple national parks and California multiple times. I honestly might book a one day trip to California just so I can have In-N-Out Burger. Its so good. One time I at lobster with the CEO of Wawa in his Avalon beach house. My friend sang live music there too.</p>
+      <main id="projects">
+        <div class="recipe a">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
+          <h2>CHOCOLATE MOUSSE</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">20 mins</p>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        <div class="recipe b">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-2.png" />
+          <h2>SMOKED LAMB WITH RICE</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">120 mins</p>
+          <p class="description">
+            Want to feel like your favorite relative came over and made you dinner? This comfort meal of smoked lamb and rice will quickly become a weekend favorite!
+          </p>
+        </div>
+        <div class="recipe c">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-5.png" />
+          <h2>GOAT CHEESE SALAD</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">25 mins</p>
+          <p class="description">
+            In addition to the full flavor of goat cheese, this salad includes kale, avocado, and farro to balance it out.</p>
+        </div>
+        <div class="recipe d">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-4.png" />
+          <h2>CHICKEN SANDWICH</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">45 mins</p>
+          <p class="description">
+            We've packed a lot into this one - shredded cabbage, carmalized onions, deep-fried chicken, chipotle mayo, half-sour pickles, and a toasted sesame bun will leave you thoroughly satisfied!</p>
+        </div>
+        <div class="recipe e">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-3.png" />
+          <h2>SWEET CHURROS</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">90 mins</p>
+          <p class="description">
+            Making this classic summer treat at home will remind you of a childhood spent in the park.</p>
+        </div>
+        <div class="recipe f">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
+          <h2>BERRY PARFAIT</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">10 mins</p>
+          <p class="description">
+            This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
+        </div>
+        <div class="recipe e">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-3.png" />
+          <h2>SWEET CHURROS</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">90 mins</p>
+          <p class="description">
+            Making this classic summer treat at home will remind you of a childhood spent in the park.</p>
+        </div>
+        <div class="recipe f">
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
+          <h2>BERRY PARFAIT</h2>
+          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
+          <p class="mins">10 mins</p>
+          <p class="description">
+            This low-calorie, vitamin-packed parfait is great for breakfast, dessert, or post-workout!</p>
+        </div>
+      </main>
 
-        <h2>Incoming Latin Bomb!</h2>
+      <footer>
+        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+      </footer>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officiis praesentium nam accusamus, vitae ratione perferendis vel sapiente nobis accusantium eligendi alias, dolorem a sit reiciendis explicabo, eos quibusdam amet saepe. Quaerat rerum, nam hic nulla nobis rem veritatis velit accusamus illum sint sit, repellendus accusantium atque. Consectetur aperiam, nesciunt. Temporibus voluptatibus voluptate voluptates sed qui sapiente atque enim rerum obcaecati non deleniti corporis, assumenda, sint incidunt, alias nostrum modi aspernatur optio aut earum. Molestiae saepe vel voluptas, veritatis, assumenda libero dignissimos, quia nulla eaque perspiciatis voluptates a ducimus aspernatur officiis animi iste. Nobis modi doloribus eaque quae quaerat dicta veniam hic, cupiditate asperiores molestias, reprehenderit iusto, cum explicabo rem inventore! Cum expedita libero, dolor cumque, eius fugiat odio deserunt ducimus earum magnam voluptatibus esse, similique reiciendis nihil consectetur perspiciatis. Maiores quos, repudiandae cum sit quidem repellat eaque vel inventore ipsam architecto velit eos porro natus sint, omnis harum aut, minus praesentium aliquid dolorum alias ad reiciendis. Facere excepturi provident placeat enim rerum ut dolorum sapiente dolor. Ea nisi asperiores error quasi odit quas architecto. Adipisci incidunt dolores pariatur praesentium veritatis a, voluptate, ex dignissimos est laudantium nisi, deserunt magnam non repellendus quasi! Omnis nisi distinctio necessitatibus ratione dolore nam.</p>
-      </div>
     </div>
-  </div>
-</body>
+  </body>
 
 </html>
