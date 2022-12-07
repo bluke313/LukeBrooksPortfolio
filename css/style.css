@@ -109,7 +109,7 @@ img {
   object-fit: cover;
 }
 
-.recipe {
+.project {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
 }
@@ -143,13 +143,6 @@ img {
   border-top: 1px solid #4a4a4a;
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
-
 /* Removed min-width because some mobile screens are smaller than 500px */
 .container {
 /*  min-width: 500px; */
@@ -175,20 +168,6 @@ footer div {
 .icons {
   list-style-type: none;
   display: inline-flex;
-}
-
-.icons a {
-  margin: 0 8px;
-  color: rgb(255, 255, 255, 0.5);
-}
-
-.icons a:hover {
-  color: rgb(255, 255, 255, 0.8);
-}
-
-a {
-  color: #003049;
-  font-weight: bold;
 }
 
 @media all and (max-width:700px) {
