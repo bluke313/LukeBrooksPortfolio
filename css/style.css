@@ -14,7 +14,6 @@ body {
   color: #eae2b7;
 }
 
-/* Removed min-width because some phones are narrower than 500px */
 
 header, footer {
   background-color: #003049;
@@ -168,6 +167,11 @@ footer div {
 .icons {
   list-style-type: none;
   display: inline-flex;
+}
+
+.icons i {
+  margin-right: 5px;
+  font-size: 25px;
 }
 
 @media all and (max-width:700px) {
